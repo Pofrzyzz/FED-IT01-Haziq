@@ -1,0 +1,1 @@
+this is a project i will be working on soon. For now, my webdev blog will be on wix
