@@ -1,0 +1,7 @@
+.flex-container{
+    display: flex;
+}
+.flex-item{
+    border: 100px solid black;
+    padding: 10px;
+}
