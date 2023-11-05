@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+div {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.rainbow-block {
+    position: relative;
+    width: 1690px;
+    height: 200px;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    animation: rainbow 2s infinite;
+  }
+  
+  @keyframes rainbow {
+    0% {
+      background: red;
+    }
+  
+    12.5% {
+      background: orange;
+    }
+  
+    25% {
+      background: yellow;
+    }
+  
+    37.5% {
+      background: green;
+    }
+  
+    50% {
+      background: cyan;
+    }
+  
+    62.5% {
+      background: blue;
+    }
+  
+    75% {
+      background: indigo;
+    }
+  
+    87.5% {
+      background: violet;
+    }
+  
+    100% {
+      background: red;
+    }
+  }
+  
