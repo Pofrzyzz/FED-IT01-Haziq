@@ -1,7 +1,13 @@
-.flex-container{
+.flex-container {
     display: flex;
-}
-.flex-item{
-    border: 100px solid black;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    margin-left: auto;
+    flex-wrap: wrap;
+  }
+  
+  .flex-item {
+    border: 50px solid white;   
     padding: 10px;
-}
+  }
+  
