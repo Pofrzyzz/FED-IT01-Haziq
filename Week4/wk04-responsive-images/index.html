@@ -13,7 +13,7 @@
 			display: flex;
 			width: 100%;
 			background-color: #fff;
-			flex-wrap: nowrap;
+			flex-wrap: wrap;
 			/*wrap flex items to a new row if not enough space */
 
 		}
@@ -40,23 +40,18 @@
 		}
 
 		.flex-img img {
-			max-width: 20%;
-            height: auto;
+			max-width: 100%;
 		}
 
 		.flex-info {
 			margin-top: auto;
-
 		}
 
 		@media (max-width: 920px) {
 			.flex-item {
-				flex: 1 21%;
-                height: auto;
+				flex: 0 1 45.5%;
+        height: auto;
 			}
-      .container{
-        flex-wrap: wrap;
-      }
       /* This is a flex shorthand */
       /* we set 
         flex-grow: 1; 
@@ -64,6 +59,7 @@
         Flex shorthand: https://developer.mozilla.org/en-US/docs/Web/CSS/flex
         Understand flex grow: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow
       */
+
 		}
 
     img{
