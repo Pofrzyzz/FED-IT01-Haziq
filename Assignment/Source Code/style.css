@@ -10,6 +10,21 @@ nav{
     z-index: 3;
 }
 
+.containter{
+    display: flex;
+    flex-direction: row;
+}
+
+.split{
+    flex-basis: 68%;
+    padding: 1%;
+}
+
+.split2{
+    flex-basis:28%;
+    padding:1%
+}
+
 body {
     background-image: url('car.webp');
     background-size: cover;
@@ -24,6 +39,11 @@ body {
 img {
     width: 250%;
     height: 250%;
+}
+
+.img1 {
+    width: 1%;
+    height: 1%;
 }
 
 .title{

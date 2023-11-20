@@ -26,3 +26,8 @@ https://arcticmonkeys.fandom.com/wiki/Arctic_Monkeys
 https://youtu.be/TgBsotpXZq8?si=fSY3nu2a4pyHkgV3
 https://youtu.be/sXzaUFYgfVc?si=CTqCo0urYFtzHME8
 These references will hold information that I'll be adding to my website to make it more informative about the band.
+Media (Credits):
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ambientlightblog.com%2Farctic-monkeys-announce-one-off-nz-concert%2F&psig=AOvVaw1kTvoDk8gW_iemvlX57xEW&ust=1700536798002000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJirsrDP0YIDFQAAAAAdAAAAABA2
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thestar.co.uk%2Fnews%2Fpeople%2Farctic-monkeys-special-later-with-jools-holland-3894236&psig=AOvVaw1kTvoDk8gW_iemvlX57xEW&ust=1700536798002000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJirsrDP0YIDFQAAAAAdAAAAABBs
+
