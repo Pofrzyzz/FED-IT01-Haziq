@@ -359,30 +359,87 @@ nav {
   padding: 10px;
   position: sticky;
   top: 0;
-  z-index: 3;
+  z-index: 4;
 }
 
-.containter {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(160, 160, 129);
-    padding: 10px;
-    position: sticky;
-    top: 0;
-    z-index: 3;
+/* .containter {
+  display: flex;
+  justify-content: space-between;  7f 
 }
 
 .split {
   flex-basis: 50%;
-} 
+}  */
+
+body {
+  font-family: Arial, sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10%;
+}
+.container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0%;
+}
+.container3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.button{
+  background-color: green;
+  color: white;
+  padding: 20px 10px;
+  border: none;
+  cursor: pointer;
+}
+.split{
+  flex-basis: 68%;
+  padding: 1%;
+}
+
+.split2{
+  flex-basis: 28%;
+  padding: 1%;
+}
+
+.split3{
+  flex-basis: 20%;
+  padding: 4%;
+}
+
+.split4{
+  flex-basis: 48%;
+  padding: 1%;
+}
 
 .logo {
   flex: 0 0 100px;
   max-width: 10%;
   height: 10%;
   padding: 0;  
+}
+
+.section1{
+  height: 620px;
+  border: 3px solid rgb(160, 160, 129);
+  background: url('backimg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 3;
+}
+
+.section2{
+  height: 1000px;
+  border: 3px solid rgb(160, 160, 129);
+  background-color: rgb(160, 160, 129);
+  z-index: 3;
 }
 
 /* img {
