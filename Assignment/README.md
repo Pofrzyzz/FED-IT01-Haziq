@@ -31,3 +31,10 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ambientlightblog.com%2Farc
 
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thestar.co.uk%2Fnews%2Fpeople%2Farctic-monkeys-special-later-with-jools-holland-3894236&psig=AOvVaw1kTvoDk8gW_iemvlX57xEW&ust=1700536798002000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJirsrDP0YIDFQAAAAAdAAAAABBs
 
+https://youtu.be/H8tLS_NOWLs?si=gP9usgoGggos2sz5
+
+https://youtu.be/qN7gSMPQFss?si=2-ySshSrDrcEIkk3
+
+https://youtu.be/bpOSxM0rNPM?si=pL6BdrTc1cW99Rbj
+
+The pictures for the merch can be found in the original website!

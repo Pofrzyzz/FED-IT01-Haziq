@@ -199,6 +199,7 @@ button,
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+  appearance: button;
 }
 
 /**
@@ -290,7 +291,8 @@ textarea {
    */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
+  -webkit-appearance: textfield; 
+  appearance: textfield;/* 1 */
   outline-offset: -2px; /* 2 */
 }
 
@@ -351,6 +353,7 @@ template {
 }
 
 nav {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -383,20 +386,33 @@ body {
 .container2{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 0%;
 }
 .container3{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+}
+.container4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .button{
-  background-color: green;
-  color: white;
+  background-color:rgb(160, 160, 129);
+  color: black;
   padding: 20px 10px;
-  border: none;
+  border: 20px black;
   cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-family: inter, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-decoration: underline;
 }
 .split{
   flex-basis: 68%;
@@ -404,8 +420,8 @@ body {
 }
 
 .split2{
-  flex-basis: 28%;
-  padding: 1%;
+  flex-basis: 26%;
+  padding: 2%;
 }
 
 .split3{
@@ -442,6 +458,27 @@ body {
   z-index: 3;
 }
 
+.section3{
+  height: 800px;
+  border: 3px solid rgb(160, 160, 129);
+  background-color: rgb(160, 160, 129);
+  z-index: 3;
+}
+
+.section4{
+  height: 50px;
+  border: 3px solid rgb(160, 160, 129);
+  background-color: rgb(160, 160, 129);
+  z-index: 3;
+}
+
+.vsection{
+  height: 800px;
+  border: 3px solid rgb(160, 160, 129);
+  background-color: rgb(160, 160, 129);
+  z-index: 3;
+}
+
 /* img {
   width: 250%;
   height: 250%;
@@ -466,4 +503,393 @@ body {
   font-size: x-large;
   font-family: inter, sans-serif;
   font-weight: bold;
+}
+
+.image1{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  font-family: inter, sans-serif;
+  font-weight: 900;
+}
+
+.video-section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.column {
+  width: 33.33%;
+  float: left;
+  margin-right: 20px;
+}
+
+.row {
+  clear: both;
+  margin-bottom: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 3px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.bandimg{
+  width: 300px;
+  height: 500px;
+}
+
+.container,
+.container2,
+.container3,
+.container4 {
+  /* Remove fixed margin and make it fluid */
+  margin: 5%;
+}
+
+.split,
+.split2,
+.split3,
+.split4 {
+  /* Remove fixed padding and make it fluid */
+  padding: 2%;
+}
+
+.button {
+  /* Adjust padding for responsiveness */
+  padding: 15px 8px;
+}
+
+body{
+  background-color: rgb(160, 160, 129);
+}
+
+video{
+  width: 500px;
+  height: auto;
+}
+
+.footercont{
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* Adjustments for tablets and smaller screens */
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .split,
+  .split2,
+  .split3,
+  .split4 {
+    flex-basis: 100%;
+    padding: 2%;
+  }
+
+  .button {
+    font-size: 24px;
+    padding: 15px 8px;
+  }
+
+  .section1,
+  .section2,
+  .section3,
+  .section4 {
+    height: auto;
+    width: fit-content;
+  }
+
+  .section3{
+    align-items: center;
+  }
+
+  .image1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .logo {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .title {
+    margin-left: 0;
+    font-size: 20px;
+  }
+
+  .list-item {
+    padding: 8px;
+    font-size: large;
+  }
+
+  .img1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-section {
+    padding: 10px;
+  }
+
+  .column {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  input,
+  select {
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  
+  form {
+    padding: 10px;
+  }
+
+  .bandimg{
+    width: 150px;
+    height: 250px;
+  }
+
+  .image1 {
+    /* Remove fixed width and make it fluid */
+    width: 100%;
+    height: auto;
+  }
+  
+  .logo {
+    /* Adjust max-width for responsiveness */
+    max-width: 50%;
+    height: auto;
+  }
+
+  .title {
+    /* Adjust font size for responsiveness */
+    font-size: 20px;
+  }
+  
+  .list-item {
+    /* Adjust font size for responsiveness */
+    font-size: large;
+    display: flex;
+    justify-content: end;
+  }
+  
+  input,
+  select {
+    /* Adjust padding for responsiveness */
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+
+  form {
+    /* Adjust padding for responsiveness */
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bandimg {
+    /* Adjust image size for responsiveness */
+    width: 150px;
+    height: 250px;
+  }
+  
+  nav{
+    width: max-content;
+  }
+
+  body{
+    width: 100%;
+  }
+
+  .container3{
+    flex-direction: column;
+  }
+
+  .footercont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vsection{
+    height: 1000px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Adjustments for screens up to 1024px */
+
+  .container,
+  .container2,
+  .container3{
+    /* Modify margin for responsiveness */
+    margin: 3%;
+  }
+
+  .container4{
+    margin: 3%;
+    flex-direction: column;
+  }
+
+  .split,
+  .split2,
+  .split4 {
+    /* Modify padding for responsiveness */
+    padding: 2%;
+    width: 100%;
+  }
+
+  .split3{
+    padding: 2%;
+    width: 100%;
+    flex-basis: 46%;
+  }
+
+  .button {
+    /* Adjust padding for responsiveness */
+    padding: 12px 8px;
+  }
+
+  .section1,
+  .section3
+  .section4 {
+    /* Adjust height and width for responsiveness */
+    height: auto;
+    width: fit-content;
+  }
+
+  .section2{
+    width: 100%;
+  }
+
+  .vsection{
+    height: 2000px;
+  }
+
+  .image1 {
+    /* Adjust image size for responsiveness */
+    width: 100%;
+    height: auto;
+  }
+
+  .logo {
+    /* Adjust max-width for responsiveness */
+    max-width: 50%;
+    height: auto;
+  }
+
+  .title {
+    /* Adjust font size for responsiveness */
+    font-size: 20px;
+  }
+
+  .list-item {
+    /* Adjust font size for responsiveness */
+    font-size: large;
+    display: flex;
+    justify-content: end;
+  }
+
+  input,
+  select {
+    /* Adjust padding for responsiveness */
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+
+  form {
+    /* Adjust padding for responsiveness */
+    padding: 10px;
+    align-items: center;
+  }
+
+  .bandimg {
+    /* Adjust image size for responsiveness */
+    width: 150px;
+    height: 250px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  body {
+    /* Adjust width for responsiveness */
+    width: fit-content;
+  }
+
+  video{
+    width: 100%;
+    height: auto;
+  }
+
+  p{
+    font-size: 15px;
+  }
+
+  .font-change{
+    font-size: 10px;
+  }
+
 }

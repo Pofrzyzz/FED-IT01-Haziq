@@ -6,6 +6,7 @@
     <title>Home - Explore About Arctic Monkeys</title>
     <meta name="viewport" content="width=device-width" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="javascript.js" defer></script>
   </head>
 <!-- To allow for scrolling the website -->
   <style>
@@ -24,13 +25,13 @@
       />
     </div>
     <div class="title" style="font-family: inter, sans-serif; font-weight: bold;">ARCTIC MONKEYS Fans</div>
-    <button class="list-item">Store</button>
-    <button class="list-item">Live</button>
-    <button class="list-item">Videos</button>
+    <button class="list-item" onclick="scrollToSection('home')">Home</button>
+    <button class="list-item" onclick="scrollToSection('store')">Store</button>
+    <button class="list-item" onclick="scrollToSection('videos')">Videos</button>
   </nav>
 
   <body>
-    <section class="section1">
+    <section class="section1" id="home">
       <div class="container" style="background-color: rgb(160, 160, 129);">
           <div class="split" style="text-align: center;">
               <h2 style="font-size: 250%;">About Us</h2>
@@ -50,35 +51,30 @@
       <h1 style="text-align: center;font-size: 450%;">Arctic Monkeys</h1>
       <div class="container2">
         <div class="split3">
-          <img style="width: 300px;height: 500px;"
-          src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\alexTurner.webp" alt="alexTurner"
+          <img class="bandimg"
+          src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\alexTurner.jpg" alt="alexTurner"
           />
           <p style="text-align: center;">Alex Turner</p>
         </div>
         <div class="split3">
-          <img style="width: 300px;height: 500px;"
+          <img class="bandimg"
           src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\mattHelder.jpg" alt="mattHelder"
           />
           <p style="text-align: center;">Matt Helder</p>
         </div>
         <div class="split3">
-          <img style="width: 300px;height: 500px;"
+          <img class="bandimg"
           src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\jamieCook.jpg" alt="jamieCook"
           />
           <p style="text-align: center;">Jamie Cook</p>
         </div>
         <div class="split3">
-          <img style="width: 300px;height: 500px;"
+          <img class="bandimg"
           src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\nickOMalley.jpg" alt="nickOMalley"
           />
           <p style="text-align: center;">Nick O'Malley</p>
         </div>
       </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
     </section>
     <section style="background-color: rgb(160, 160, 129);">
       <div class="container3" style="background-color: rgb(160, 160, 129);">
@@ -86,111 +82,180 @@
             <img src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\ArcticMonkeys.jpg" alt="Image description" style="justify-content: center;height: 100%;width: 100%;" />
           </div>
           <div class="split4" style="text-align: center;">
-              <h2 style="font-size: 250%;">Their Humble Origins</h2>
-              <p style="font-size: 150%;">
+              <h1 style="font-size: 250%;">Their Humble Origins</h1>
+              <p class="font-change">
                   It all started in the suburbs where 4 friends decided to do some hip hop music. Rock inspired the band to pick up certain instruments.
                   Matt Helder picked up the drums, Jamie Cook picked up the guitar and Alex Turner took position of front man which he initially didn't want.
                   Note that Andy Nicholson was in the band at this moment rather than Nick O'Malley. Jamie wanted to be in a band called the "Arctic Monkeys" and the name 
                   just stuck. The band started writing songs in Alex's garage and moved to performing in pubs by 2003. They made a 18 song demo, and gave it away anywhere they could.
                   When a local photographer uploaded the band onto his website and giving the demo a name of Beneath the Boardwalk. This led to Arctic Monkeys being one of the first few bands
                   to become popular due to the internet. Soon, the band released their debut single called "Five minutes with Arctic Monkeys" which made many labels want to sign them. However, they went 
-                  with Domino Records as they were in love with the owner's idea of "Do it yourself" and soon released their album called "Whatever People Say I Am, That's What I'm Not".
+                  with Domino Records as they were in love with the owner's idea of "Do it yourself" and soon released their first album called "Whatever People Say I Am, That's What I'm Not".
               </p>
           </div>
       </div>
     </section>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <section class="section2">
+      <h1 style="text-align: center;font-size: 450%;">Famous Albums</h1>
+      <div class="container2">
+        <div class="split2">
+          <img class="image1"
+          src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\_AM__(Arctic_Monkeys).jpg" alt="AM album cover"
+          />
+          <p>AM</p>
+        </div>
+        <div class="split2">
+          <img class="image1"
+          src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\Arctic_Monkeys_tbh&c.png" alt="Tranquility Base Hotel & Casino album cover"
+          />
+          <p>Tranquility Base Hotel & Casino</p>
+        </div>
+        <div class="split2">
+          <img class="image1"
+          src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\yfwm_am.jpg" alt="favourite worst nightmare album cover"
+          />
+          <p>Favourite Worst Nightmare</p>
+        </div>
+      </div>
+    </section>
+    <section style="background-color: rgb(160, 160, 129);">
+      <div class="container3" style="background-color: rgb(160, 160, 129);">
+          <div class="split4">
+            <a href="https://open.spotify.com/album/1XkGORuUX2QGOEIL4EbJKm?si=O_Uole2bReq8NQtavLhd7Q" target="_blank">
+              <img class="image1" src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\yfwm_am.jpg" alt="Image description" style="justify-content: center;height: 100%;width: 100%;" />
+            </a>
+          </div>
+          <div class="split4" style="text-align: center;">
+              <h1 style="font-size: 250%;">Favourite worst nightmare</h1>
+              <p style="font-size: 150%;">
+                  Favourite nightmare was released with a few of the all time classics "505", "Brianstorm", "Flourescent Adolescent" and this album was the first
+                  album they recorded with their new bassist 'Nick O'Malley'. This was the start of the band's journey to find different kind of sounds to integrate into their music.
+              </p>
+          </div>
+      </div>
+    </section>
+    <section style="background-color: rgb(160, 160, 129);">
+      <div class="container3" style="background-color: rgb(160, 160, 129);">
+          <div class="split4">
+            <a href="https://open.spotify.com/album/78bpIziExqiI9qztvNFlQu?si=-z0nXO_ZSfqPVgSsq8hmUg" target="_blank">
+              <img class="image1" src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\_AM__(Arctic_Monkeys).jpg" alt="Image description" style="justify-content: center;height: 100%;width: 100%;" id="clickableImage"/>
+            </a>
+          </div>
+          <div class="split4" style="text-align: center;">
+              <h1 style="font-size: 250%;">AM</h1>
+              <p style="font-size: 150%;">
+                  AM was one of the most iconic albums ever and one of the most popular as this was when they changed how the songs sounded and how the lyrics 
+                  were different from their old songs. Alex Turner picked up a persona and all of them were now these people who wore leather jackets and were 
+                  cool. Their songs were now songs that could be blasted in their cars and a song to somewhat relate to.
+              </p>
+          </div>
+      </div>
+    </section>
+    <section style="background-color: rgb(160, 160, 129);">
+      <div class="container3" style="background-color: rgb(160, 160, 129);">
+          <div class="split4">
+            <a href="https://open.spotify.com/album/7v6FNgLDS8KmaWA1amUtqe?si=5NuSr99cS12VspO5oArHTw" target="_blank">
+              <img class="image1" src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\yfwm_am.jpg" alt="Image description" style="justify-content: center;height: 100%;width: 100%;" />
+            </a>
+          </div>
+          <div class="split4" style="text-align: center;">
+              <h1 style="font-size: 250%;">Tranquility Base Hotel & Casino</h1>
+              <p style="font-size: 150%;" class="font-change">
+                  This album was not famous mainly for the music but rather the reactions of fans towards this album. 
+                  This album was a first step in a creative direction for the band where the song lyrics were more direct and the songs melody were 
+                  different as they decided to evolve with the times. This album was their response to the everchanging music industry  
+                  and fans would have to either listen or don't. This album was also the pedestal for the band to reach greater heights.
+              </p>
+          </div>
+      </div>
+      <br/>
+      <br/>
+    </section>
+    <section class="section3" id="store">
+      <h1 style="text-align: center;font-size: 450%;">Store</h1>
+      <div class="container2">
+        <div>
+          <img class="image1"
+          src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\The-Car-Cap.png" alt="AM The-Car-Cap"
+          style="text-align: center;"/>
+          <p style="text-align: center;">The Car Cap</p>
+        </div>
+        <div>
+          <img class="image1"
+          src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\The-Car-White-Tee-1-1.png" alt="The-Car-White-Tee"
+          style="text-align: center;"/>
+          <p style="text-align: center;">The Car White Tee</p>
+        </div>
+        <div>
+          <img class="image1"
+          src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\The-Car-Black-Tee-1-1.png" alt="The-Car-Black-Tee"
+          style="text-align: center;"/>
+          <p style="text-align: center;">The Car Black Tee</p>
+        </div>
+      </div>
+      <div class="buttonContainer">
+        <a href="https://store.arcticmonkeys.com/" target="_blank" class="button">Visit Store</a>
+      </div>
+    </section>
+    <section class="vsection" id="videos">
+      <h1 style="text-align: center;font-size: 450%;">Videos</h1>
+      <p style="text-align: center;font-size: 150%;">These are some of the famous videos!</p>
+      <div class="container4">
+        <div>
+          <video controls>
+            <source src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\Arctic Monkeys - Do I Wanna Know_ (Official Video).mp4" type="video/mp4">
+          </video>
+          <p style="text-align: center;">Do I Wanna Know</p>
+        </div>
+        <div>
+          <video controls>
+            <source src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\Arctic Monkeys - One For The Road (Official Video) (1080p).mp4" type="video/mp4">
+          </video>
+          <p style="text-align: center;">One For The Road</p>
+        </div>
+        <div>
+          <video controls>
+            <source src="C:\Users\haziq\Documents\GitHub\FED-IT01-Haziq\Assignment\Source Code\Media\Arctic Monkeys - Snap Out Of It (Official Video) (1080p).mp4" type="video/mp4">
+          </video>
+          <p style="text-align: center;">Snap Out Of It</p>
+        </div>
+      </div>
+    </section>
+    <section class="footercont">
+      <section class="section3">
+        <h1 style="text-align: center;">Get the latest news</h1>
+        <form action="process_subscription.php" method="post">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+      
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Email" required>
+      
+          <label for="country">Country:</label>
+          <select id="country" name="country" required>
+            <option value="" disabled selected>Select your country</option>
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="singapore">Singapore</option>
+            <option value="malaysia">Malaysia</option>
+            <option value="china">China</option>
+            <option value="thailand">Thailand</option>
+            <option value="japan">Japan</option>
+            <option value="korea">Korea</option>
+            <option value="uk">United Kingdom</option>
+          </select>
+      
+          <input type="submit" value="Join the Mailing List">
+        </form>
+      </section>
+      <footer>
+        <section class="section4">
+          <p style="text-align: center;">&copy; 2023 Arctic Monkeys Fans. All rights reserved.</p>
+        </section>
+      </footer>
+    </section>
   </body>
 </html>
