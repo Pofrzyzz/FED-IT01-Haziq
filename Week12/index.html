@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Simple RESTDB</title>
+
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+	<div class="container">
+		<h1>Simple Contact Form System</h1>
+		<div id="add-update-msg">
+			<div class="alert alert-success" role="alert">
+				Contact record successfully added
+			</div>
+		</div>
+		<div class="form" id="add-contact">
+			<form id="add-contact-form">
+				<div class="form-group">
+					<label for="contact-name">Name</label>
+            <input type="text" id="contact-name" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">School Email</label>
+            <input type="email" id="contact-studentemail" class="form-control" required>
+            <small id="contact-email-help" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="contact-studentid">Student ID</label>
+            <textarea id="contact-studentid" class="form-control" required>
+            </textarea>
+          </div>
+        <div class="form-group">
+          <label for="contact-studentcourse">Student Course</label>
+          <textarea id="contact-studentcourse" class="form-control" required>
+          </textarea>
+        </div>
+        <div class="form-group">
+          <label for="contact-studentclass">Student Class</label>
+          <textarea id="contact-studentclass" class="form-control" required>
+          </textarea>
+        </div>
+        <div class="form-group">
+          <label for="contact-studentmentor">Student Mentor</label>
+          <textarea id="contact-studentmentor" class="form-control" required>
+          </textarea>
+        </div>
+
+
+          <input type="submit" value="Send" class="btn btn-primary" id="contact-submit">
+      </form>
+    </div>
+  </div><!-- end add container --> 
+
+  <div class="container mt-5">
+    <h2>Table information of Contacts (<span id="total-contacts"></span>)</h2>
+    <table class="table" id="contact-list">
+      <thead>
+        <th>Name</th>
+        <th>Student Email</th>
+        <th>Student ID</th>
+        <th>Student Course</th>
+        <th>Student Class</th>
+        <th>Student Mentor</th>
+        <th colspan="2">Actions</th>
+        
+      </thead>
+      <!-- This will be filled with information later -->
+      <tbody></tbody>
+    </table>
+  </div>
+  
+  <div class="container mt-5" id="update-contact-container"> 
+    <div id="add-update-msg">
+			<div class="alert alert-success" role="alert">
+				Contact record updated sucessfully
+			</div>
+		</div>
+    <h4>Update Contact</h4>
+    <div class="form" id="update-contact">
+			<form id="update-contact-form">
+				<div class="form-group">
+					<label for="update-contact-name">Name</label>
+          <input type="text" id="update-contact-name" class="form-control" required>
+          </div>
+          <div class="form-group">
+          <label for="update-contact-email">School Email</label>
+          <input type="email" id="update-contact-email" class="form-control" required>
+           <small id="update-contact-email-help" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+          <label for="update-contact-studentid">Student ID</label>
+          <textarea id="update-contact-studentid" class="form-control" required>
+          </textarea>
+          <input type="hidden" id="update-contact-id">
+          </div>
+        <div class="form-group">
+          <label for="update-contact-course">Student Course</label>
+          <input type="text" id="update-contact-course" class="form-control" required>
+          </div>
+        <div class="form-group">
+          <label for="update-contact-class">Student Class</label>
+          <input type="text" id="update-contact-class" class="form-control" required>
+          </div>
+        <div class="form-group">
+          <label for="update-contact-mentor">Student Mentor</label>
+          <input type="text" id="update-contact-mentor" class="form-control" required>
+          </div>
+
+          <input type="submit" value="Update Contact Details" class="btn btn-warning" id="update-contact-submit">
+        </form>
+    </div>
+  </div>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+  </body>
+</html>
